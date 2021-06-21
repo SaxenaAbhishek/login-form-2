@@ -1,0 +1,121 @@
+body {
+  font-family: "Trebuchet MS";
+}
+
+.main {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 3px solid #e53939;
+  /* position: absolute; */
+}
+
+.main .left {
+  width: 50%;
+  height: 100%;
+
+  float: left;
+  text-align: center;
+
+  position: relative;
+}
+
+.main .left h1 {
+  margin-top: 100px;
+}
+
+.left form input {
+  text-align: center;
+  width: 70%;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 0.5px solid black;
+  background: #f8f8f8;
+  border-radius: 25px;
+}
+
+.left form input:focus {
+  outline: none;
+}
+
+.left form input[type="submit"] {
+  background: #ffbf37;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.left form input[type="submit"]:hover {
+  background: black;
+}
+
+.forget:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.or {
+  font-size: 15px;
+  font-weight: bolder;
+  width: 40px;
+  height: 30px;
+  padding-top: 10px;
+
+  border: 2px solid #e53939;
+  border-radius: 50%;
+  position: absolute;
+  left: 106%;
+}
+
+.main .right {
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+
+.right h1 {
+  margin-top: 100px;
+}
+
+.social {
+  margin-top: 40px;
+}
+
+.social button {
+  border: none;
+  padding: 15px;
+  width: 50px;
+  font-size: 18px;
+  background: #fff;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.twitter {
+  color: #55acee;
+}
+
+.twitter:hover {
+  background: #55acee;
+  color: white;
+  cursor: pointer;
+}
+
+.facebook {
+  color: #012677;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background: #012677;
+  color: white;
+  cursor: pointer;
+}
+
+.google:hover {
+  background: #d50f25;
+  color: #fff;
+  cursor: pointer;
+}
